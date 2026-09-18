@@ -1,0 +1,35 @@
+=== Initiating Zero-Downtime Rollout Test ===
+deployment.apps/backend restarted
+18:29:30 - Request 1: HTTP Status 401pod "temp-curl" deleted
+18:29:36 - Request 2: HTTP Status 401pod "temp-curl" deleted
+18:29:43 - Request 3: HTTP Status 000pod "temp-curl" deleted
+FAIL
+18:29:51 - Request 4: HTTP Status 401pod "temp-curl" deleted
+18:29:57 - Request 5: HTTP Status 401pod "temp-curl" deleted
+18:30:04 - Request 6: HTTP Status 401pod "temp-curl" deleted
+18:30:08 - Request 7: HTTP Status 401pod "temp-curl" deleted
+18:30:14 - Request 8: HTTP Status 401pod "temp-curl" deleted
+18:30:21 - Request 9: HTTP Status 401pod "temp-curl" deleted
+18:30:27 - Request 10: HTTP Status 401pod "temp-curl" deleted
+18:30:33 - Request 11: HTTP Status 401pod "temp-curl" deleted
+18:30:39 - Request 12: HTTP Status 401pod "temp-curl" deleted
+18:30:44 - Request 13: HTTP Status 401pod "temp-curl" deleted
+18:30:50 - Request 14: HTTP Status 401pod "temp-curl" deleted
+18:30:56 - Request 15: HTTP Status 401pod "temp-curl" deleted
+18:31:03 - Request 16: HTTP Status 401pod "temp-curl" deleted
+18:31:09 - Request 17: HTTP Status 401pod "temp-curl" deleted
+18:31:13 - Request 18: HTTP Status 401pod "temp-curl" deleted
+18:31:37 - Request 19: HTTP Status 401pod "temp-curl" deleted
+18:31:43 - Request 20: HTTP Status 401pod "temp-curl" deleted
+18:31:50 - Request 21: HTTP Status 401pod "temp-curl" deleted
+18:31:55 - Request 22: HTTP Status 401pod "temp-curl" deleted
+18:32:02 - Request 23: HTTP Status 401pod "temp-curl" deleted
+18:32:08 - Request 24: HTTP Status 401pod "temp-curl" deleted
+18:32:12 - Request 25: HTTP Status 401pod "temp-curl" deleted
+18:32:18 - Request 26: HTTP Status 401pod "temp-curl" deleted
+18:32:23 - Request 27: HTTP Status 401pod "temp-curl" deleted
+18:32:31 - Request 28: HTTP Status 401pod "temp-curl" deleted
+18:32:38 - Request 29: HTTP Status 401pod "temp-curl" deleted
+18:32:46 - Request 30: HTTP Status 401pod "temp-curl" deleted
+=== Rollout Status ===
+deployment "backend" successfully rolled out
