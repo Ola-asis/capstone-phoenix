@@ -1,0 +1,15 @@
+=== 1. Current Task Records ===
+ id |             title              | status 
+----+--------------------------------+--------
+  1 | Deploy Capstone Phoenix to K8s | todo
+(1 row)
+
+=== 2. Deleting PostgreSQL Pod to Simulate Crash/Restart ===
+pod "postgres-0" deleted
+pod/postgres-0 condition met
+=== 3. Querying Task Records After Pod Re-creation ===
+ id |             title              | status 
+----+--------------------------------+--------
+  1 | Deploy Capstone Phoenix to K8s | todo
+(1 row)
+
