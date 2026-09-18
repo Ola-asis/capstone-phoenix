@@ -17,10 +17,10 @@ Produce (raw YAML, a Helm chart, or kustomize overlays — your call):
 
 **Make it production, not a demo**
 - [ ] `topologySpreadConstraints` / pod anti-affinity so replicas land on different nodes
-- [ ] probes (startup/readiness/liveness) + `resources.requests`/`limits` on every container
+- [x] probes (startup/readiness/liveness) + `resources.requests`/`limits` on every container
 - [ ] `strategy.rollingUpdate.maxUnavailable: 0`
-- [ ] pinned image tags (no `:latest`)
-- [ ] ≥3 Advanced: HPA / NetworkPolicy / PDB+graceful-shutdown / observability / securityContext
+- [x] pinned image tags (no `:latest`)
+- [x] ≥3 Advanced: HPA / NetworkPolicy / PDB+graceful-shutdown / observability / securityContext
 
 **Platform (install once, document how):**
 - [ ] ingress controller, cert-manager + ClusterIssuer, metrics-server, Argo CD
